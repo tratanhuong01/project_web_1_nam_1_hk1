@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+#web 
+{
+    width: 100%;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+#header {
+    width: 100%;
+    display: flex;
+    padding: 2em 0em;
+    position: relative;
+}
+.logo {
+    width: 20%;
+}
+.logo img {
+    width: 50%;
+}
+#menu {
+    width: 50%;
+}
+#menu ul {
+    display: flex;
+}
+#menu ul li {
+    padding: 10px 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.right-head {
+    width: 30%;
+}
+.right-head ul {
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+.right-head ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+.frist-shop {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+}
+.frist-shop-1 {
+    width: 20%;
+    text-align: left;
+}
+.frist-shop-2 {
+    width: 80%;
+    text-align: right;
+}
+.shop-product {
+    width: 100%;
+    display: flex;
+}
+.shop-left {
+    width: 25%;
+    padding-right: 1em;
+}
+.shop-left ul li {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    font-size: 15px;
+}
+.product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-product {
+    width: 23.5%;
+    height: 400px;
+    margin-right: 1.5%;
+    text-align: center;
+}
+.main-product img {
+	width: 100%;
+	height: 250px;	
+}
+strike {
+    text-decoration: line-through;
+}
+.main-product b {
+    color: red;
+}
+.buy-now {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.buy-now button {
+    padding: 8px 1em;
+    border: none;
+    font-weight: bold;
+    background-color: rosybrown;
+}
+strike {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+.product-clone {
+    width: 100%;
+}
+.product-clone-1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    padding: 1em 0em;
+}
+.product-clone1a {
+    width: 20%;
+}
+.product-clone1a img {
+    width: 100%;
+}
+.product-clone1b {
+    padding-left: 1em;
+}
+.shop-right {
+    width: 75%;
+}
+.near-footer {
+    width: 100%;
+    margin: 2em 0em;
+}
+.near-footer img {
+    width: 16.4%;
+}
+.footer {
+    width: 100%;
+    display: flex;
+}
+.footer-1 {
+    width: 35%;
+}
+.footer-2 {
+    width: 22%;
+}
+.footer-3 {
+    width: 22%;
+}
+.footer-4 {
+    width: 21%;
+}
+.clone p {
+    margin-bottom: 1em;
+}
+.clone p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+}
